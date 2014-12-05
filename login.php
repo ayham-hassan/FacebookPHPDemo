@@ -30,7 +30,7 @@ use Facebook\GraphSessionInfo;
 
 // Setup Facebook 
 FacebookSession::setDefaultApplication($appId, $appSecret);
-$helper = new FacebookRedirectLoginHelper('http://localhost/sociatag/index.php');
+$helper = new FacebookRedirectLoginHelper('http://localhost/Facebook PHP Demo/index.php');
 
 // see if a existing session exists
 if ( isset( $_SESSION ) && isset( $_SESSION['fb_token'] ) ) {
@@ -77,7 +77,7 @@ if ( isset( $session ) )
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title> SociaTag-login </title>
+		<title> Facebook PHP Demo-login </title>
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="icon" href="images/logo1.jpg">
 		<link rel="stylesheet prefetch" href="css/font-awesome.min.css">
@@ -102,7 +102,7 @@ if ( isset( $session ) )
 				</div>
 				<div id="mainlogin">
 					<div id="or">or</div>
-					<h1>Log in with SociaTag account</h1>
+					<h1>Log in with Facebook PHP Demo account</h1>
 					<form action="#">
 						<input type="text" placeholder="username" value="" required>
 						<input type="password" placeholder="password" value="" required>

@@ -8,7 +8,7 @@ $appId = '307710499430417';
 $appSecret = '466f486ba9d44012227af685cdcfc178'; 
 
 # default return url for socialtag app when doing something in server, such as success login to facebook, logout,.....
-$return_url = 'http://localhost/sociatag/';
+$return_url = 'http://localhost/FacebookPHPDemo/';
 
 # permissions to be used in facebook
 $permissions = array(
@@ -34,12 +34,12 @@ $permissions = array(
 #### database configurations  #################
 ###############################################
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');    // DB username
-define('DB_PASSWORD', 'root');    // DB password
-define('DB_DATABASE', 'sociatag');      // DB name
-$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD) or die( "Unable to connect");
-$database = mysqli_select_db($connection,DB_DATABASE) or die( "Unable to select database");
+#define('DB_SERVER', 'localhost');
+#define('DB_USERNAME', 'root');    // DB username
+#define('DB_PASSWORD', 'root');    // DB password
+#define('DB_DATABASE', 'FacebookPHPDemo');      // DB name
+#$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD) or die( "Unable to connect");
+#$database = mysqli_select_db($connection,DB_DATABASE) or die( "Unable to select database");
 
 ###############################################
 #### end of database configurations  ##########
