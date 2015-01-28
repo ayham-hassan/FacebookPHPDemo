@@ -4,8 +4,8 @@
 ###############################################
 
 # replace $appId, $appSecret values with socialtag app values founded in facebook.com
-$appId = '307710499430417'; 
-$appSecret = '466f486ba9d44012227af685cdcfc178'; 
+$appId = 'EDIT HERE ****'; 
+$appSecret = 'EDIT HERE****'; 
 
 # default return url for socialtag app when doing something in server, such as success login to facebook, logout,.....
 $return_url = 'http://localhost/FacebookPHPDemo/';
